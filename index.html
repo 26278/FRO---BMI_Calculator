@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="nl">
+	<head>
+	<meta charset="utf-8">
+	<meta name="author" content="Jochem de Wit">
+	<meta name="description" content="Een AJAX formulier waarmee uw BMI word gecontroleerd">
+	<title>Bereken BMI</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+
+	<body>
+		<div id="wrapper">
+
+			<div id="vraag">
+				<div id=head>
+				<h3>BMI Ajax 2019</h3> 
+			</div>
+
+			<div id="assignment">
+				<div id="input">
+					<a>Geslacht:</a>
+						<label><a>Man</a>
+						<input type="radio" name="manOfVrouw"></label>
+						<label><a>Vrouw</a>
+						<input type="radio" name="manOfVrouw"></label>
+					<br><br>
+
+					<a>Vul je gewicht in (in kg):</a><br>
+					<input type="text" size="20" id="gewicht"><br><br>
+					<a>Vul je leeftijd in: </a><br>
+					<input type="text" size="20" id="leeftijd"><br><br>
+					<a>Vul je lengte in (in cm): </a><br>
+					<input type="text" size="20" id="lengte"><br><br>
+				</div>
+
+				<button id="bereken">Bereken BMI</button>
+			</div>
+
+			<div id=footer>
+			<div id="resultaat"></div>
+
+			<div id="validatie">
+			    <a href="http://validator.w3.org/check?uri=referer" target="_blank">
+			        <img src="https://blanken5.home.xs4all.nl/afb/valid-html5-blue.png" alt="Valide HTML5"></a>
+			    <a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank">
+			        <img src="http://jigsaw.w3.org/css-validator/images/vcss-blue.gif" alt="Valide CSS">
+			    </a>
+			</div>
+
+			</div>
+		</div>
+		
+		<script src="js/ajax.js"></script>
+		<script src="js/script.js"></script>
+	</body>
+</html>
